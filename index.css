@@ -166,7 +166,7 @@ section::after {
                 transform: translate(-100px, -100px);
                 background: linear-gradient(90deg, #F7a631, #F5ca8e);
         }
-        
+
         section::after {
                 content: "";
                 position: absolute;
@@ -176,7 +176,13 @@ section::after {
                 transform: translate(80px, 120px);
                 background: linear-gradient(90deg, #F7a631, #F5ca8e);
         }
-        .links{
+
+        .container {
+                height: 350px;
+                width: 300px;
+        }
+
+        .links {
                 font-size: .8rem;
         }
 }
