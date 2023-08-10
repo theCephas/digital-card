@@ -155,3 +155,28 @@ section::after {
 .card.back-face>ul>li>.is {
         color: white;
 }
+
+@media screen and (max-width: 600px) {
+        section::before {
+                content: "";
+                position: absolute;
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                transform: translate(-100px, -100px);
+                background: linear-gradient(90deg, #F7a631, #F5ca8e);
+        }
+        
+        section::after {
+                content: "";
+                position: absolute;
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                transform: translate(80px, 120px);
+                background: linear-gradient(90deg, #F7a631, #F5ca8e);
+        }
+        .links{
+                font-size: .8rem;
+        }
+}
