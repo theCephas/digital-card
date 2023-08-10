@@ -173,7 +173,7 @@ section::after {
                 height: 150px;
                 width: 150px;
                 border-radius: 50%;
-                transform: translate(80px, 80px);
+                transform: translate(86px, 40px);
                 background: linear-gradient(90deg, #F7a631, #F5ca8e);
         }
 
