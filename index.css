@@ -25,20 +25,20 @@ section {
 section::before {
         content: "";
         position: absolute;
-        height: 240px;
-        width: 240px;
+        height: 180px;
+        width: 180px;
         border-radius: 50%;
-        transform: translate(-150px, -100px);
+        transform: translate(-70px, -80px);
         background: linear-gradient(90deg, #F7a631, #F5ca8e);
 }
 
 section::after {
         content: "";
         position: absolute;
-        height: 240px;
-        width: 240px;
+        height: 180px;
+        width: 180px;
         border-radius: 50%;
-        transform: translate(150px, 100px);
+        transform: translate(80px, 80px);
         background: linear-gradient(90deg, #F7a631, #F5ca8e);
 }
 
@@ -63,7 +63,7 @@ section::after {
         border: 1px solid rgba(255, 255, 255, .1);
         border-radius: 20px;
         box-shadow: 0 25px 45px rgba(0, 0, 0, .25);
-        backdrop-filter: blur(25px);
+        backdrop-filter: blur(45px);
         transition: all 0.3s ease;
         font-family: 'Poppins', sans-serif;
         backface-visibility: hidden;
