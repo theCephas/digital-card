@@ -173,7 +173,7 @@ section::after {
                 height: 125px;
                 width: 125px;
                 border-radius: 50%;
-                transform: translate(96px, 10px);
+                transform: translate(96px, 0px);
                 background: linear-gradient(90deg, #F7a631, #F5ca8e);
         }
 
@@ -181,8 +181,13 @@ section::after {
                 height: 330px;
                 width: 300px;
         }
-
+        .socials{
+                padding: 0px 20px;
+        }
         .links {
                 font-size: .8rem;
+        }
+        .ad{
+                padding-bottom: 25px;
         }
 }
