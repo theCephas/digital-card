@@ -156,14 +156,14 @@ section::after {
         color: white;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
         section::before {
                 content: "";
                 position: absolute;
                 height: 125px;
                 width: 125px;
                 border-radius: 50%;
-                transform: translate(-100px, -70px);
+                transform: translate(-90px, -60px);
                 background: linear-gradient(90deg, #F7a631, #F5ca8e);
         }
 
