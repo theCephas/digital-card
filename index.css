@@ -160,10 +160,10 @@ section::after {
         section::before {
                 content: "";
                 position: absolute;
-                height: 150px;
-                width: 150px;
+                height: 125px;
+                width: 125px;
                 border-radius: 50%;
-                transform: translate(-100px, -100px);
+                transform: translate(-100px, -70px);
                 background: linear-gradient(90deg, #F7a631, #F5ca8e);
         }
 
